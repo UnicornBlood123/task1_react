@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: "./src/cardsLoader.js",
     output: {
         path: path.join(__dirname, "/dist"),
         filename: "index-bundle.js"

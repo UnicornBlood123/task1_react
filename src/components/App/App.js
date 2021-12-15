@@ -1,14 +1,14 @@
 import React, {Component} from "react";
 
-import '../styles/App.css';
-import Items from "./Items";
+import './Style.css';
+import Items from "../Items/Items";
 
 
-const App = (props) => {
+const App = ({data}) => {
         return (
             <div>
                 <h1>Фрукты</h1>;
-                <Items data = {props.data}/>
+                <Items data = {data}/>
             </div>
         );
 }

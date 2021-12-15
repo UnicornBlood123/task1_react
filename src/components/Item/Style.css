@@ -1,0 +1,22 @@
+.item{
+    border-radius: 20px;
+    background-color: white;
+    border: solid 2px lightgray;
+    text-align: center;
+    font-style: italic;
+    font-size:30px;
+    box-shadow: 3px 1px 1px lightgray;
+    margin-left: 100px;
+}
+.price{
+    color: red;
+    padding-bottom: 10px;
+}
+.name{
+    padding-top: 10px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    align-content: center;
+}

@@ -1,11 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App.js";
-import {data} from "./data.js"
+import App from "./components/App/App.js";
 
-const loadData = () =>{
-    data().then(cardsData =>{
-        ReactDOM.render(<App data = {cardsData}/>, document.getElementById("root"));
-    })
+export const card = (cardData) =>{
+    ReactDOM.render(<App data = {cardData}/>, document.getElementById("root"));
 }
-window.onload = loadData();
+
