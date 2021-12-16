@@ -4,11 +4,11 @@ import './Style.css';
 import Items from "../Items/Items";
 
 
-const App = ({data}) => {
+const App = () => {
         return (
             <div>
                 <h1>Фрукты</h1>;
-                <Items data = {data}/>
+                <Items/>
             </div>
         );
 }
