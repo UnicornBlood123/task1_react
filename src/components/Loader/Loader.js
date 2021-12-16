@@ -1,9 +1,10 @@
 import React, {Component} from "react";
+import './Style.css';
 
 const Loader = () => {
     return (
         <div>
-         <h1 align={"center"}>Загрузка</h1>
+         <p>Загрузка...</p>
         </div>
     );
 }
